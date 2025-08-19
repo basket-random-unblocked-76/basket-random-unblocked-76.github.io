@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll('.navbar-brand.js-scroll-trigger').forEach(function(el) {
-        el.innerHTML = '<strong>Basketball Bros<strong>';
+        el.innerHTML = '<strong>Basketball Random<strong>';
         el.style.visibility = 'visible';
     });
 });
@@ -50,7 +50,7 @@ function loadGoogleAnalytics(trackingId) {
 }
 
 // Usage
-loadGoogleAnalytics('G-5LLN4N35CE');
+loadGoogleAnalytics('G-997ZC0N7VX');
 
 
 (function() {
@@ -92,4 +92,3 @@ loadGoogleAnalytics('G-5LLN4N35CE');
     // Bonus: Block "onbeforeunload" popups
     window.onbeforeunload = null;
 })();
-
